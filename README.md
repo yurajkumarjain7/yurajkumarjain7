@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @yurajkumarjain7
 - 👀 I’m interested in frontend 
 - 🌱 I’m currently learning 
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 💞️ I’m looking to collaborate on GitHub 
+- 📫 How to reach me yuvrajjain347@gmail.com
 - 😄 Pronouns: he/his
 - ⚡ Fun fact: i am iron man 
 
