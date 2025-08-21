@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @yurajkumarjain7
+- 👋 Hi, I’m @yuvrajkumarjain7
 - 👀 I’m interested in frontend 
 - 🌱 I’m currently learning 
 - 💞️ I’m looking to collaborate on GitHub 
