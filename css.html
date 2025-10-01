@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keyboard Event & CSS Styling Example</title>
+</head>
+<body>
+
+    <p id="myText" style="color: black; font-size: 20px;">Hello world</p>
+
+    <script>
+        // 1. Get a reference to the HTML element
+        const textElement = document.getElementById('myText');
+
+        // 2. Add the event listener for 'keydown'
+        document.addEventListener('keydown', (event) => {
+            // 3. Check for the 'w' key
+            if (event.key === 'w' || event.key === 'W') {
+                // DOM Manipulation (Text)
+                textElement.textContent = 'Wakanda forever';
+
+                // DOM Manipulation (CSS/Style)
+                // Access the 'style' property and then the specific CSS property.
+
+                // NOTE: CSS property names like 'font-size' are converted to
+                // CamelCase in JavaScript (e.g., 'fontSize').
+
+                // Change the text color
+                textElement.style.color = 'purple';
+
+                // Change the background color
+                textElement.style.backgroundColor = 'yellow';
+
+                // Change the font size
+                textElement.style.fontSize = '36px';
+
+                // Add a border
+                textElement.style.border = '5px solid black';
+
+            } else if (event.key === 'r' || event.key === 'R') {
+                // Optional: Reset the text and style on another key (e.g., 'r' for reset)
+                textElement.textContent = 'Hello world';
+                textElement.style.color = 'black';
+                textElement.style.backgroundColor = 'transparent';
+                textElement.style.fontSize = '20px';
+                textElement.style.border = 'none';
+            }
+        });
+    </script>
+
+</body>
+</html>
