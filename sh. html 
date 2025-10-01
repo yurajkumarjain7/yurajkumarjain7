@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keyboard Event Example</title>
+</head>
+<body>
+
+    <p id="myText">Hello world</p>
+
+    <script>
+        // 2. Get a reference to the HTML element by its ID
+        const textElement = document.getElementById('myText');
+
+        // 3. Add an event listener to the entire document for a 'keydown' event
+        document.addEventListener('keydown', (event) => {
+            // 4. Check if the key pressed is 'w' (case-insensitive)
+            // event.key gives the character of the key pressed
+            if (event.key === 'w' || event.key === 'W') {
+                // 5. Change the text content of the element
+                textElement.textContent = 'Wakanda forever';
+            }
+            // Optional: You could add an 'else if' or 'else' block
+            // to reset the text or change it to something else
+            // when a different key is pressed.
+        });
+    </script>
+
+</body>
+</html>
